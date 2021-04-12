@@ -2,7 +2,7 @@ let cola;
 let rot;
 
 function preload() {
-  cola = loadModel('assets/cola.stl', true);
+  //cola = loadModel('assets/cola.stl', true);
 }
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
