@@ -15,6 +15,7 @@ function draw() {
   //pointLight(0, 0, 100, 0, 0, 500);
   // transform the teapot
   translate(0, 200, -300);
+  box(305, 455, 200);
   //rotateX(HALF_PI);
   //rotateZ(rot);
   scale(20);
