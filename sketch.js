@@ -2,7 +2,7 @@ let cola;
 let rot;
 
 function preload() {
-  cola = loadModel('assets/cola.stl');
+  cola = loadModel('assets/cola.stl', true);
 }
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
@@ -20,7 +20,7 @@ function draw() {
   //scale(20);
   noStroke();
   // display teapots
-  //model(cola);
+  model(cola);
   // rotate teapots
   //rot += 0.02;
 }
