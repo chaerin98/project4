@@ -10,11 +10,11 @@ function setup() {
   rot=0;
 }
 function draw() {
-  background(0);
+  background('FFFFFF');
   // setting lights
   //pointLight(0, 0, 100, 0, 0, 500);
   // transform the teapot
-  translate(0, 200, -300);
+  //translate(0, 200, -300);
   box(305, 455, 200);
   //rotateX(HALF_PI);
   //rotateZ(rot);
