@@ -12,15 +12,15 @@ function setup() {
 function draw() {
   background(0);
   // setting lights
-  pointLight(0, 0, 100, 0, 0, 500);
+  //pointLight(0, 0, 100, 0, 0, 500);
   // transform the teapot
   translate(0, 200, -300);
-  rotateX(HALF_PI);
-  rotateZ(rot);
-  scale(20);
+  //rotateX(HALF_PI);
+  //rotateZ(rot);
+  //scale(20);
   noStroke();
   // display teapots
   model(cola);
   // rotate teapots
-  rot += 0.02;
+  //rot += 0.02;
 }
