@@ -17,7 +17,7 @@ function draw() {
   translate(0, 200, -300);
   //rotateX(HALF_PI);
   //rotateZ(rot);
-  //scale(20);
+  scale(20);
   noStroke();
   // display teapots
   model(cola);
