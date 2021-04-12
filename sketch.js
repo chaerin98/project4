@@ -21,7 +21,7 @@ function draw() {
   scale(20);
   noStroke();
   // display teapots
-  model(cola);
+  //model(cola);
   // rotate teapots
   //rot += 0.02;
 }
